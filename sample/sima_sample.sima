@@ -1,0 +1,6 @@
+defmodule Main:
+
+    def main:
+        42
+    end
+end
