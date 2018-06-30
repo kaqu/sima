@@ -1,6 +1,24 @@
 defmodule Main:
 
-    def main:
-        42
+    def main: Void -> Int # main function - program entry point 
+        ret 0
     end
+
+    def answer: Void -> Int
+        ret 42
+    end
+
+    #def Point:
+    #    {
+    #        x: Int
+    #        y: Int
+    #    }
+    #end
+
+    #def complex:
+    #    {
+    #        x: {val: [Float] filter: {val: Float} -> Bool} -> Int y: Int
+    #    }
+    #end
+
 end
